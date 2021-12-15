@@ -11,7 +11,9 @@
     ],
     "files": [
         "./LICENSE",
-        "./README.md"
+        "./README.md",
+        "./config/bundle_services.php",
+        "./config/services.php"
     ],
     "dump-autoload": true,
     "force-autodiscovery": true,
