@@ -1,0 +1,47 @@
+{
+    "name": "sourecode/action-console",
+    "type": "application",
+    "description": "Actions as console command",
+    "keywords": [
+        "symfony",
+        "action",
+        "workflow",
+        "pipeline"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Schilling",
+            "email": "jason@sourecode.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.0 || ^8.1",
+        "symfony/runtime": "^5.3 || ^6.0",
+        "symfony/dependency-injection": "^5.3 || ^6.0",
+        "symfony/framework-bundle": "^5.3 || ^6.0",
+        "symfony/http-kernel": "^5.3 || ^6.0",
+        "sourecode/action-bundle": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "SoureCode\\Console\\Action\\": "src"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SoureCode\\Console\\Action\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/box-project/box/master/res/schema.json",
+    "main": "./bin/action.php",
+    "banner": [
+        "This file is part of the SoureCode package.",
+        "",
+        "(c) Jason Schilling <jason@sourecode.dev>",
+        "",
+        "This source file is subject to the MIT license that is bundled",
+        "with this source code in the file LICENSE."
+    ],
+    "files": [
+        "./LICENSE",
+        "./README.md"
+    ],
+    "dump-autoload": true,
+    "force-autodiscovery": true,
+    "exclude-composer-files": false,
+    "output": "./dist/action.phar",
+    "compression": "GZ",
+    "datetime": "release-date"
+}
